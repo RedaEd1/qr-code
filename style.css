@@ -1,0 +1,48 @@
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute; 
+    bottom: 0; 
+    z-index: 10;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+  }
+  .Box {
+    background-color: white;
+    width: 320px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6%;
+
+  }
+  .Box img {
+    margin-top: 20px;
+    border-radius: 6%;
+  }
+  .inside {
+    padding: 10px 20px 30px 20px;
+    }
+    .inside h3 {
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+        font-weight: 700;
+    }
+    .inside p {
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    
